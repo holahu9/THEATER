@@ -19,9 +19,15 @@ body{
     display: flex;
     justify-content: space-around;
     background-color: A0B19F;
-    
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */  /*REMEMBER: ADD MARGIN TOP TO CONTENT */
+    z-index: 2;
+   
 }
-.leftheader h1{
+
+
+
+.leftheader h2{
     color: rgb(8, 136, 130) ;
     padding-top: 10px;
 }
@@ -72,6 +78,10 @@ ul li a: hover{
     width:48px;
     height: 48px;
     color: blue;
+}
+
+section{
+    margin-top: 60px;
 }
 
 
