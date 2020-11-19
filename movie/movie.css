@@ -1,0 +1,85 @@
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url(asset/bg7.jpg);
+    background-position-x: 50%;
+    background-position-y: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.header-content{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: A0B19F;
+    
+}
+.leftheader h1{
+    color: rgb(8, 136, 130) ;
+    padding-top: 10px;
+}
+.bt1{
+    background-color: lightgreen;
+}
+nav ul li a{
+    color: white;
+    font-size: x-large;
+    font-weight: lighter;
+    
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    
+    
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+ul li a: hover{
+    color: rgb(8, 136, 130);
+}
+
+.leftheader, .rightheader, nav,{
+    width: 33.33%;
+}
+.rightheader .btn{
+    background-color: royalblue;
+    color: white;
+}
+
+.rightheader{
+    padding-top: 15px;
+}
+
+.rightheader .ios-switch .switchbody{
+    background-color: #ddd;
+    boder: solid 1px gray;
+    width:96px;
+}
+
+.rightheader .ios-switch .switchbody .toggle{
+    width:48px;
+    height: 48px;
+    color: blue;
+}
+
+
+
+/*#bg { position: fixed; top: -50%; left: -50%; width: 200%; height: 200%;  }
+body {
+  background: url('http://www.gettyimages.pt/gi-resources/images/Homepage/Hero/PT/PT_hero_42_153645159.jpg') no-repeat;
+  }
+#bg img { position: absolute; top: 0; left: 0; right: 0; bottom: 0;     margin: auto; min-width: 50%; min-height: 50%; }
+ header { background: url('http://www.nasa.gov/sites/default/files/styles/image_card_4x3_ratio/public/thumbnails/image/hubble_friday_03042016.jpg?itok=j1kZCJ51') no-repeat; }
+*/
